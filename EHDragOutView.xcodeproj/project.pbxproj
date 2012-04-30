@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF21D1C71547942900166961 /* LeftMenuExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF21D1C61547942900166961 /* LeftMenuExampleViewController.m */; };
+		EF21D1CA1547957A00166961 /* RightMenuExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF21D1C91547957A00166961 /* RightMenuExampleViewController.m */; };
+		EF21D1E11547E0A700166961 /* TopMenuExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF21D1E01547E0A700166961 /* TopMenuExampleViewController.m */; };
+		EFC7C935154CDB8300FCE730 /* BottomMenuExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7C934154CDB8300FCE730 /* BottomMenuExampleViewController.m */; };
+		EFC7C93B154D0C2400FCE730 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EFC7C93A154D0C2300FCE730 /* README.md */; };
+		EFC7C947154D493000FCE730 /* EHDragOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7C93E154D493000FCE730 /* EHDragOutView.m */; };
+		EFC7C948154D493000FCE730 /* EHDragOutViewBottomToTopStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7C940154D493000FCE730 /* EHDragOutViewBottomToTopStrategy.m */; };
+		EFC7C949154D493000FCE730 /* EHDragOutViewLeftToRightStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7C942154D493000FCE730 /* EHDragOutViewLeftToRightStrategy.m */; };
+		EFC7C94A154D493000FCE730 /* EHDragOutViewRightToLeftStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7C944154D493000FCE730 /* EHDragOutViewRightToLeftStrategy.m */; };
+		EFC7C94B154D493000FCE730 /* EHDragOutViewTopToBottomStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7C946154D493000FCE730 /* EHDragOutViewTopToBottomStrategy.m */; };
+		EFEA513515456FC1005EEB60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEA513415456FC1005EEB60 /* UIKit.framework */; };
+		EFEA513715456FC1005EEB60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEA513615456FC1005EEB60 /* Foundation.framework */; };
+		EFEA513915456FC1005EEB60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEA513815456FC1005EEB60 /* CoreGraphics.framework */; };
+		EFEA513F15456FC1005EEB60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFEA513D15456FC1005EEB60 /* InfoPlist.strings */; };
+		EFEA514115456FC1005EEB60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEA514015456FC1005EEB60 /* main.m */; };
+		EFEA514515456FC2005EEB60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEA514415456FC2005EEB60 /* AppDelegate.m */; };
+		EFEA514815456FC2005EEB60 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEA514615456FC2005EEB60 /* MainStoryboard_iPhone.storyboard */; };
+		EFEA514B15456FC2005EEB60 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEA514915456FC2005EEB60 /* MainStoryboard_iPad.storyboard */; };
+		EFEA515C154574BA005EEB60 /* DragOutMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEA515B154574BA005EEB60 /* DragOutMenuView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF21D1C51547942900166961 /* LeftMenuExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuExampleViewController.h; sourceTree = "<group>"; };
+		EF21D1C61547942900166961 /* LeftMenuExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuExampleViewController.m; sourceTree = "<group>"; };
+		EF21D1C81547957900166961 /* RightMenuExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMenuExampleViewController.h; sourceTree = "<group>"; };
+		EF21D1C91547957A00166961 /* RightMenuExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMenuExampleViewController.m; sourceTree = "<group>"; };
+		EF21D1DF1547E0A700166961 /* TopMenuExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopMenuExampleViewController.h; sourceTree = "<group>"; };
+		EF21D1E01547E0A700166961 /* TopMenuExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMenuExampleViewController.m; sourceTree = "<group>"; };
+		EFC7C933154CDB8300FCE730 /* BottomMenuExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomMenuExampleViewController.h; sourceTree = "<group>"; };
+		EFC7C934154CDB8300FCE730 /* BottomMenuExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomMenuExampleViewController.m; sourceTree = "<group>"; };
+		EFC7C93A154D0C2300FCE730 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		EFC7C93D154D493000FCE730 /* EHDragOutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHDragOutView.h; sourceTree = "<group>"; };
+		EFC7C93E154D493000FCE730 /* EHDragOutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHDragOutView.m; sourceTree = "<group>"; };
+		EFC7C93F154D493000FCE730 /* EHDragOutViewBottomToTopStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHDragOutViewBottomToTopStrategy.h; sourceTree = "<group>"; };
+		EFC7C940154D493000FCE730 /* EHDragOutViewBottomToTopStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHDragOutViewBottomToTopStrategy.m; sourceTree = "<group>"; };
+		EFC7C941154D493000FCE730 /* EHDragOutViewLeftToRightStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHDragOutViewLeftToRightStrategy.h; sourceTree = "<group>"; };
+		EFC7C942154D493000FCE730 /* EHDragOutViewLeftToRightStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHDragOutViewLeftToRightStrategy.m; sourceTree = "<group>"; };
+		EFC7C943154D493000FCE730 /* EHDragOutViewRightToLeftStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHDragOutViewRightToLeftStrategy.h; sourceTree = "<group>"; };
+		EFC7C944154D493000FCE730 /* EHDragOutViewRightToLeftStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHDragOutViewRightToLeftStrategy.m; sourceTree = "<group>"; };
+		EFC7C945154D493000FCE730 /* EHDragOutViewTopToBottomStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHDragOutViewTopToBottomStrategy.h; sourceTree = "<group>"; };
+		EFC7C946154D493000FCE730 /* EHDragOutViewTopToBottomStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHDragOutViewTopToBottomStrategy.m; sourceTree = "<group>"; };
+		EFEA513015456FC1005EEB60 /* EHDragOutView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EHDragOutView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEA513415456FC1005EEB60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFEA513615456FC1005EEB60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFEA513815456FC1005EEB60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFEA513C15456FC1005EEB60 /* EHDragOutView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EHDragOutView-Info.plist"; sourceTree = "<group>"; };
+		EFEA513E15456FC1005EEB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFEA514015456FC1005EEB60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFEA514215456FC1005EEB60 /* EHDragOutView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EHDragOutView-Prefix.pch"; sourceTree = "<group>"; };
+		EFEA514315456FC2005EEB60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFEA514415456FC2005EEB60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFEA514715456FC2005EEB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		EFEA514A15456FC2005EEB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		EFEA515A154574BA005EEB60 /* DragOutMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragOutMenuView.h; sourceTree = "<group>"; };
+		EFEA515B154574BA005EEB60 /* DragOutMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragOutMenuView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFEA512D15456FC1005EEB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEA513515456FC1005EEB60 /* UIKit.framework in Frameworks */,
+				EFEA513715456FC1005EEB60 /* Foundation.framework in Frameworks */,
+				EFEA513915456FC1005EEB60 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFC7C93C154D493000FCE730 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EFC7C93D154D493000FCE730 /* EHDragOutView.h */,
+				EFC7C93E154D493000FCE730 /* EHDragOutView.m */,
+				EFC7C93F154D493000FCE730 /* EHDragOutViewBottomToTopStrategy.h */,
+				EFC7C940154D493000FCE730 /* EHDragOutViewBottomToTopStrategy.m */,
+				EFC7C941154D493000FCE730 /* EHDragOutViewLeftToRightStrategy.h */,
+				EFC7C942154D493000FCE730 /* EHDragOutViewLeftToRightStrategy.m */,
+				EFC7C943154D493000FCE730 /* EHDragOutViewRightToLeftStrategy.h */,
+				EFC7C944154D493000FCE730 /* EHDragOutViewRightToLeftStrategy.m */,
+				EFC7C945154D493000FCE730 /* EHDragOutViewTopToBottomStrategy.h */,
+				EFC7C946154D493000FCE730 /* EHDragOutViewTopToBottomStrategy.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EFEA512515456FC1005EEB60 = {
+			isa = PBXGroup;
+			children = (
+				EFC7C93A154D0C2300FCE730 /* README.md */,
+				EFEA513A15456FC1005EEB60 /* EHDragOutView */,
+				EFEA513315456FC1005EEB60 /* Frameworks */,
+				EFEA513115456FC1005EEB60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFEA513115456FC1005EEB60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFEA513015456FC1005EEB60 /* EHDragOutView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFEA513315456FC1005EEB60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFEA513415456FC1005EEB60 /* UIKit.framework */,
+				EFEA513615456FC1005EEB60 /* Foundation.framework */,
+				EFEA513815456FC1005EEB60 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFEA513A15456FC1005EEB60 /* EHDragOutView */ = {
+			isa = PBXGroup;
+			children = (
+				EFC7C93C154D493000FCE730 /* Library */,
+				EFEA514315456FC2005EEB60 /* AppDelegate.h */,
+				EFEA514415456FC2005EEB60 /* AppDelegate.m */,
+				EFEA514615456FC2005EEB60 /* MainStoryboard_iPhone.storyboard */,
+				EFEA514915456FC2005EEB60 /* MainStoryboard_iPad.storyboard */,
+				EFEA513B15456FC1005EEB60 /* Supporting Files */,
+				EFEA515A154574BA005EEB60 /* DragOutMenuView.h */,
+				EFEA515B154574BA005EEB60 /* DragOutMenuView.m */,
+				EF21D1C51547942900166961 /* LeftMenuExampleViewController.h */,
+				EF21D1C61547942900166961 /* LeftMenuExampleViewController.m */,
+				EF21D1C81547957900166961 /* RightMenuExampleViewController.h */,
+				EF21D1C91547957A00166961 /* RightMenuExampleViewController.m */,
+				EF21D1DF1547E0A700166961 /* TopMenuExampleViewController.h */,
+				EF21D1E01547E0A700166961 /* TopMenuExampleViewController.m */,
+				EFC7C933154CDB8300FCE730 /* BottomMenuExampleViewController.h */,
+				EFC7C934154CDB8300FCE730 /* BottomMenuExampleViewController.m */,
+			);
+			path = EHDragOutView;
+			sourceTree = "<group>";
+		};
+		EFEA513B15456FC1005EEB60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFEA513C15456FC1005EEB60 /* EHDragOutView-Info.plist */,
+				EFEA513D15456FC1005EEB60 /* InfoPlist.strings */,
+				EFEA514015456FC1005EEB60 /* main.m */,
+				EFEA514215456FC1005EEB60 /* EHDragOutView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFEA512F15456FC1005EEB60 /* EHDragOutView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEA515115456FC2005EEB60 /* Build configuration list for PBXNativeTarget "EHDragOutView" */;
+			buildPhases = (
+				EFEA512C15456FC1005EEB60 /* Sources */,
+				EFEA512D15456FC1005EEB60 /* Frameworks */,
+				EFEA512E15456FC1005EEB60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EHDragOutView;
+			productName = EHDragOutView;
+			productReference = EFEA513015456FC1005EEB60 /* EHDragOutView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFEA512715456FC1005EEB60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EFEA512A15456FC1005EEB60 /* Build configuration list for PBXProject "EHDragOutView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFEA512515456FC1005EEB60;
+			productRefGroup = EFEA513115456FC1005EEB60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFEA512F15456FC1005EEB60 /* EHDragOutView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFEA512E15456FC1005EEB60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEA513F15456FC1005EEB60 /* InfoPlist.strings in Resources */,
+				EFEA514815456FC2005EEB60 /* MainStoryboard_iPhone.storyboard in Resources */,
+				EFEA514B15456FC2005EEB60 /* MainStoryboard_iPad.storyboard in Resources */,
+				EFC7C93B154D0C2400FCE730 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFEA512C15456FC1005EEB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEA514115456FC1005EEB60 /* main.m in Sources */,
+				EFEA514515456FC2005EEB60 /* AppDelegate.m in Sources */,
+				EFEA515C154574BA005EEB60 /* DragOutMenuView.m in Sources */,
+				EF21D1C71547942900166961 /* LeftMenuExampleViewController.m in Sources */,
+				EF21D1CA1547957A00166961 /* RightMenuExampleViewController.m in Sources */,
+				EF21D1E11547E0A700166961 /* TopMenuExampleViewController.m in Sources */,
+				EFC7C935154CDB8300FCE730 /* BottomMenuExampleViewController.m in Sources */,
+				EFC7C947154D493000FCE730 /* EHDragOutView.m in Sources */,
+				EFC7C948154D493000FCE730 /* EHDragOutViewBottomToTopStrategy.m in Sources */,
+				EFC7C949154D493000FCE730 /* EHDragOutViewLeftToRightStrategy.m in Sources */,
+				EFC7C94A154D493000FCE730 /* EHDragOutViewRightToLeftStrategy.m in Sources */,
+				EFC7C94B154D493000FCE730 /* EHDragOutViewTopToBottomStrategy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFEA513D15456FC1005EEB60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFEA513E15456FC1005EEB60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFEA514615456FC2005EEB60 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFEA514715456FC2005EEB60 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EFEA514915456FC2005EEB60 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFEA514A15456FC2005EEB60 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFEA514F15456FC2005EEB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFEA515015456FC2005EEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFEA515215456FC2005EEB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EHDragOutView/EHDragOutView-Prefix.pch";
+				INFOPLIST_FILE = "EHDragOutView/EHDragOutView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFEA515315456FC2005EEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EHDragOutView/EHDragOutView-Prefix.pch";
+				INFOPLIST_FILE = "EHDragOutView/EHDragOutView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFEA512A15456FC1005EEB60 /* Build configuration list for PBXProject "EHDragOutView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEA514F15456FC2005EEB60 /* Debug */,
+				EFEA515015456FC2005EEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEA515115456FC2005EEB60 /* Build configuration list for PBXNativeTarget "EHDragOutView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEA515215456FC2005EEB60 /* Debug */,
+				EFEA515315456FC2005EEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFEA512715456FC1005EEB60 /* Project object */;
+}
